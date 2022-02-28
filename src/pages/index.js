@@ -1,13 +1,13 @@
 import { h } from "preact";
 
 export default (props) => (
-  <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 mt-4">
     <h1 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
       Run a Rust Program
     </h1>
     <ul
       role="list"
-      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4"
     >
       <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
         <div class="w-full flex items-center justify-between p-6 space-x-6">
