@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "./postinstall.js",
-    "build": "npm run build:css && npm run build:site",
+    "build": "./postinstall.js && npm run build:css && npm run build:site",
     "build:css": "tailwindcss -c legacy-commonjs/tailwind.config.js -i index.css -o public/styles.css",
     "build:css:watch": "tailwindcss -c legacy-commonjs/tailwind.config.js -i index.css -o public/styles.css -w",
     "build:site": "toast-cli incremental ."
