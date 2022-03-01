@@ -8,7 +8,7 @@ const components = {
 export default function PageWrapper(props) {
   return (
     <MDXProvider components={components}>
-      <div class="bg-orange-100 min-h-full">
+      <div>
         <Helmet>
           <link rel="stylesheet" href="/styles.css" />
         </Helmet>

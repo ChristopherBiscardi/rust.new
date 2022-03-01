@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+body {
+  background: rgb(254 226 226);
+}
